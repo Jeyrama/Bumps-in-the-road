@@ -12,3 +12,8 @@ return Woohoo!, otherwise return Car Dead
 
 // Solution
 
+function bump(x) {
+  return (x.match(/n/g) || []).length > 15 ? "Card Dead" : "Woohoo!";
+}
+
+// or
